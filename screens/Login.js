@@ -1,12 +1,17 @@
 import React from 'react'
-import {View, Text, Image} from "react-native"
-
+import {View, Text, Image, TouchableOpacity} from "react-native"
+import {AntDesign} from '@expo/vector-icons'
 
 export default function Login() {
     return(
-        <View style={{flex:1,justifyContent:"center", alignItems:"center", backgroundcolor: 'red'}}>
+        <View style={{
+            flex:1,
+            justifyContent:"center", 
+            alignItems:"center", 
+            backgroundcolor: "white"
+            }}>
             <View style={{flex:2}}>
-                <image style={{width:150, height:150}} 
+                <image style={{width:150, height:150, borderRadius:10, marginBottom:20}} 
                 source={{URL:"http"}}/>
             
             <Text style= {{color: "rgba(0,0,0,0,6)", fontSize:24}}> Welcome to </Text>
