@@ -15,8 +15,12 @@ export default function Home() {
            justifyContent:"space-between",
             alignItems:"center",
             }}>
-                <Ionicons name="ios-menu-outline" size={24} color="black"
-
+                <Ionicons name="ios-menu-outline" size={24} color="black"></Ionicons>
+               <FontAwesme name="motorcycle" size={24} color="black"></FontAwesme>
+               <View style={{flexDirection:"row", justifyContent:"space-between"}}>
+                  <AntDesign name="search1" size={20} color="black"/>
+                  <Ionicons name="notifications-outline" size={20} color="black"/> 
+               </View>
             </View>
 
         </View>
