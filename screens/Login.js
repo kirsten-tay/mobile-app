@@ -1,6 +1,7 @@
 import React from 'react'
 import {View, Text, Image, TouchableOpacity} from "react-native"
 import {AntDesign} from '@expo/vector-icons'
+import LoginBike from '../assets/LoginBike.jpg'
 
 export default function Login() {
     return(
@@ -12,7 +13,7 @@ export default function Login() {
             }}>
             <View style={{flex:2}}>
                 <image style={{width:200, height:200, borderRadius:20, marginBottom:50, transform:[{rotate:"45deg"}],}} 
-                source={{URL:"http"}}/>
+                source={{LoginBike}}/>
             
             <Text style= {{color: "rgba(0,0,0,0,6)", fontSize:24}}> Welcome to </Text>
             <Text style={{color:"black", fontSize: 30, fontWeight:"600" }}>Power Bike Shop</Text>
