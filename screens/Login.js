@@ -12,8 +12,14 @@ export default function Login() {
             backgroundcolor: "white"
             }}>
             <View style={{flex:2}}>
-                <image style={{width:200, height:200, borderRadius:20, marginBottom:50, transform:[{rotate:"45deg"}],}} 
-                source={{LoginBike}}/>
+                <image style={{
+                    width:200, 
+                    height:200, 
+                    borderRadius:20, 
+                    marginBottom:50, 
+                    transform:[{rotate:"45deg"}],}} 
+                img="LoginBike"/>
+
             
             <Text style= {{color: "rgba(0,0,0,0,6)", fontSize:24}}> Welcome to </Text>
             <Text style={{color:"black", fontSize: 30, fontWeight:"600" }}>Power Bike Shop</Text>
@@ -30,9 +36,22 @@ export default function Login() {
                    <Text style={{fontSize:17, marginLeft:15}}>Login with Gmail</Text>
                  </TouchableOpacity>
                  
+                 <TouchableOpacity style={{
+                backgroundColor:"black",
+                padding:10,
+                paddingHorizontal:60,
+                flexDirection:"row",
+                alignItems:"center",
+                borderRadius:10,
+                marginTop:20,
+                 }}>
+                     <AntDesign name="apple" size={24} color="rgb(256, 100, "></AntDesign>
+                   <Text style={{fontSize:17, marginLeft:15}}>Login with Apple</Text>
+                 </TouchableOpacity>
+                 
             
             </View>
             <View style={{flex:1, backgroundColor: "red"}}></View>
         </View>
     )
-}
+}     
