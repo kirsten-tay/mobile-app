@@ -32,7 +32,7 @@ export default function Login() {
                 borderRadius:10,
                 marginTop:20,
                  }}>
-                     <AntDesign name="google" size={24} color="rgb(256, 100, "></AntDesign>
+                     <AntDesign name="google" size={24} color="red "></AntDesign>
                    <Text style={{fontSize:17, marginLeft:15}}>Login with Gmail</Text>
                  </TouchableOpacity>
                  
@@ -45,7 +45,7 @@ export default function Login() {
                 borderRadius:10,
                 marginTop:20,
                  }}>
-                     <AntDesign name="apple" size={24} color="rgb(256, 100, "></AntDesign>
+                     <AntDesign name="apple1" size={24} color="white "></AntDesign>
                    <Text style={{fontSize:17, marginLeft:15}}>Login with Apple</Text>
                  </TouchableOpacity>
                  
