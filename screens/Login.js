@@ -17,8 +17,8 @@ export default function Login() {
                     height:200, 
                     borderRadius:20, 
                     marginBottom:50, 
-                    transform:[{rotate:"45deg"}],}} 
-                img="LoginBike"/>
+                    transform:[{rotate:"45deg"}], }}
+                source={require["../assets/LoginBike.jpg"]}/>
 
             
             <Text style= {{color: "rgba(0,0,0,0,6)", fontSize:24}}> Welcome to </Text>
