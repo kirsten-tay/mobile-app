@@ -12,8 +12,8 @@ export default function Login() {
             alignItems:"center", 
             backgroundcolor: "white"
             }}>
-            <View style={{flex:2}}>
-                <image style={{
+            
+                <Image style={{
                     width:200, 
                     height:200, 
                     borderRadius:20, 
@@ -24,7 +24,11 @@ export default function Login() {
             
             <Text style= {{color: "rgba(0,0,0,0,6)", fontSize:24}}> Welcome to </Text>
             <Text style={{color:"black", fontSize: 30, fontWeight:"600" }}>Power Bike Shop</Text>
-            <TouchableOpacity style={{
+            <TouchableOpacity 
+            onPress={() => {
+                alert("hi")
+            }}
+            style={{
                 backgroundColor:"#e3e3e3",
                 padding:10,
                 paddingHorizontal:60,
@@ -33,12 +37,12 @@ export default function Login() {
                 borderRadius:10,
                 marginTop:20,
                  }}>
-                     <AntDesign name="google" size={24} color="red "></AntDesign>
+                     <AntDesign name="google" size={24} color="red"></AntDesign>
                    <Text style={{fontSize:17, marginLeft:15}}>Login with Gmail</Text>
                  </TouchableOpacity>
                  
                  <TouchableOpacity 
-                onPress={() =>{
+                onPress={() => {
                    navigation.navigate("Home")
                 }}
                 activeOpacity={0,8}
@@ -51,7 +55,7 @@ export default function Login() {
                 borderRadius:10,
                 marginTop:20,
                  }}>
-                     <AntDesign name="apple1" size={24} color="white "/>
+                     <AntDesign name="apple1" size={24} color="white"/>
                    <Text style={{fontSize:17,color:"white", marginLeft:15}}>Login with Apple</Text>
                  </TouchableOpacity>
 
@@ -62,8 +66,7 @@ export default function Login() {
                      </Text>
                  </TouchableOpacity>
             
-            </View>
-            <View style={{flex:1, backgroundColor: "red"}}></View>
+            
         </View>
     )
 }     
