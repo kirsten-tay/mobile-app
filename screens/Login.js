@@ -36,7 +36,9 @@ export default function Login() {
                    <Text style={{fontSize:17, marginLeft:15}}>Login with Gmail</Text>
                  </TouchableOpacity>
                  
-                 <TouchableOpacity style={{
+                 <TouchableOpacity 
+                
+                 style={{
                 backgroundColor:"black",
                 padding:10,
                 paddingHorizontal:60,
@@ -45,10 +47,16 @@ export default function Login() {
                 borderRadius:10,
                 marginTop:20,
                  }}>
-                     <AntDesign name="apple1" size={24} color="white "></AntDesign>
-                   <Text style={{fontSize:17, marginLeft:15}}>Login with Apple</Text>
+                     <AntDesign name="apple1" size={24} color="white "/>
+                   <Text style={{fontSize:17,color:"white" marginLeft:15}}>Login with Apple</Text>
                  </TouchableOpacity>
-                 
+
+                 <TouchableOpacity>
+                     <Text style={{marginTop:10, fontWeight:"500", color:"black"}}>
+                         Not a member? {""}
+                         <Text style={{color:"orange", fontWeight:"bold"}}/>
+                     </Text>
+                 </TouchableOpacity>
             
             </View>
             <View style={{flex:1, backgroundColor: "red"}}></View>
