@@ -1,10 +1,9 @@
 import React from 'react'
-import {View, Text, Image, TouchableOpacity} from "react-native"
-import {AntDesign} from '@expo/vector-icons'
-import { NavigationContainer } from '@react-navigation/native'
+import {View, Text, Image, TouchableOpacity, Pressable} from "react-native"
+import {AntDesign} from '@expo/vector-icons';
 
 
-export default function Login() {
+export default function Login(navigation) {
     return(
         <View style={{
             flex:1,
@@ -37,7 +36,7 @@ export default function Login() {
                 borderRadius:10,
                 marginTop:20,
                  }}>
-                     <AntDesign name="google" size={24} color="red"></AntDesign>
+                     <AntDesign name="google" size={24} color="rgb(256,100,10)"></AntDesign>
                    <Text style={{fontSize:17, marginLeft:15}}>Login with Gmail</Text>
                  </TouchableOpacity>
                  
@@ -60,8 +59,8 @@ export default function Login() {
                  </TouchableOpacity>
 
                  <TouchableOpacity>
-                     <Text style={{marginTop:10, fontWeight:"500", color:"black"}}>
-                         Not a member? {""}
+                     <Text style={{marginTop:10, fontWeight:"500", color:"grey"}}>
+                         Not a member?{" "}
                          <Text style={{color:"orange", fontWeight:"bold"}}>Signup</Text>
                      </Text>
                  </TouchableOpacity>
