@@ -1,5 +1,7 @@
 import React from 'react'
-import {View, text} from "react-native"
+import {View,  } from "react-native"
+import {Ionicons ,FontAwesome ,AntDesign} from '@expo/vector-icons';
+import { NavigationContainer } from '@react-navigation/native';
 
 
 export default function Home() {
@@ -15,8 +17,8 @@ export default function Home() {
            justifyContent:"space-between",
             alignItems:"center",
             }}>
-                <Ionicons name="ios-menu-outline" size={24} color="black"></Ionicons>
-               <FontAwesme name="motorcycle" size={24} color="black"></FontAwesme>
+                <Ionicons name="ios-menu-outline" size={24} color="black"/>
+               <FontAwesome name="motorcycle" size={24} color="black"/>
                <View style={{flexDirection:"row", justifyContent:"space-between"}}>
                   <AntDesign name="search1" size={20} color="black"/>
                   <Ionicons name="notifications-outline" size={20} color="black"/> 
