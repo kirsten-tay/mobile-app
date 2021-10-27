@@ -1,6 +1,6 @@
 import React from 'react'
 import {View,  } from "react-native"
-import {Ionicons ,FontAwesome ,AntDesign} from '@expo/vector-icons';
+import {Ionicons ,FontAwesome ,AntDesign ,FlatList} from '@expo/vector-icons';
 import { NavigationContainer } from '@react-navigation/native';
 
 
@@ -14,6 +14,7 @@ export default function Home() {
         }}>
             <View style={{
            flexDirection:"row",
+           flex:1,
            justifyContent:"space-between",
             alignItems:"center",
             }}>
@@ -24,7 +25,19 @@ export default function Home() {
                   <Ionicons name="notifications-outline" size={20} color="black"/> 
                </View>
             </View>
-
+           <View style={{
+               flexDirection:"row",
+               flex:3,
+               justifyContent:"space-between",
+                alignItems:"center",
+           }}>
+                <FlatList data={[{
+                    title: 'Title Text', key: 'item1'}]}
+                renderItem={({item}) => <ListItem title={item.title} />}
+/>
+           </View>
         </View>
+        
+        
     )
 }
