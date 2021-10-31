@@ -32,7 +32,7 @@ export default function Home() {
                 alignItems:"center",
            }}>
                 <FlatList data={[{
-                    title: 'Title Text', key: 'item1'}]}
+                    title: 'bike', key: 'item1'}]}
                 renderItem={({item}) => <ListItem title={item.title} />}
 />
            </View>
