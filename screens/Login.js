@@ -22,7 +22,7 @@ export default function Login({navigation}) {
                 source={require("../assets/LoginBike.jpg")}/>
 
             
-            <Text style= {{color: "rgba(0,0,0,0,6)", fontSize:24}}> Welcome to </Text>
+            <Text style= {{color: "black", fontSize:24}}> Welcome to </Text>
             <Text style={{color:"black", fontSize: 30, fontWeight:"600" }}>Power Bike Shop</Text>
             <TouchableOpacity 
             onPress={() => {
