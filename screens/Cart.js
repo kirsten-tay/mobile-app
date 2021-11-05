@@ -10,6 +10,14 @@ export default function Home() {
         paddingTop:55,
         paddingHorizontal:20,
         }}>
+            <View style={{
+           flexDirection:"row",
+           flex:1,
+           justifyContent:"space-between",
+            alignItems:"center",
+            }}>
+                
+            </View>
 
         </View>
     )
