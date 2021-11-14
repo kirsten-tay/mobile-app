@@ -1,6 +1,6 @@
 import React from 'react'
-import {View,  } from "react-native"
-import {Ionicons ,FontAwesome ,AntDesign ,FlatList} from '@expo/vector-icons';
+import {View,Text, Image, StyleSheet, ScrollView} from "react-native"
+import {Ionicons ,FontAwesome ,AntDesign,Foundation,FlatList} from '@expo/vector-icons';
 
 
 export default function Home() {
