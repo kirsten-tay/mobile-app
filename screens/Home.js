@@ -24,6 +24,10 @@ export default function Home() {
                   <Ionicons name="notifications-outline" size={20} color="black"/> 
                </View>
             </View>
+
+            <Text style={{marginVertical: 10, fontSize: 18, fontWeight: 500, color: 'rgba(0,0,0, .4)'}}>The world's <Text style={{fontSize: 20, fontWeight: 700, color:'#f17827'}}>Best Bikes</Text></Text>
+            <Text style={{fontSize: 18, fontWeight: 700, color: 'rgba(0,0,0, .8)'}}>Categories</Text>
+         <ScrollView horizontal={true}>
            <View style={{
                flexDirection:"row",
                flex:3,
@@ -35,6 +39,7 @@ export default function Home() {
                 renderItem={({item}) => <ListItem title={item.title} />}
 />
            </View>
+        </ScrollView>
         </View>
         
         
