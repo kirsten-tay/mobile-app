@@ -1,7 +1,7 @@
 import React from 'react'
 import {View,Text, Image, StyleSheet, ScrollView} from "react-native"
 import {Ionicons ,FontAwesome ,AntDesign,Foundation,FlatList} from '@expo/vector-icons';
-
+import { NavigationContainer } from '@react-navigation/native';
 
 export default function Home() {
     return(
@@ -25,8 +25,8 @@ export default function Home() {
                </View>
             </View>
 
-            <Text style={{marginVertical: 10, fontSize: 18, fontWeight: 500, color: 'rgba(0,0,0, .4)'}}>The world's <Text style={{fontSize: 20, fontWeight: 700, color:'#f17827'}}>Best Bikes</Text></Text>
-            <Text style={{fontSize: 18, fontWeight: 700, color: 'rgba(0,0,0, .8)'}}>Categories</Text>
+            <Text style={{marginVertical: 10, fontSize: 18, fontWeight: "500", color: "rgba(0,0,0, .4)"}}>The world's <Text style={{fontSize: 20, fontWeight: "700", color:'#f17827'}}>Best Bikes</Text></Text>
+            <Text style={{fontSize: 18, fontWeight: "700", color: "rgba(0,0,0, .8)"}}>Categories</Text>
          <ScrollView horizontal={true}>
            <View style={{
                flexDirection:"row",
@@ -34,10 +34,11 @@ export default function Home() {
                justifyContent:"space-between",
                 alignItems:"center",
            }}>
-                <FlatList data={[{
-                    title: 'bike', key: 'item1'}]}
-                renderItem={({item}) => <ListItem title={item.title} />}
-/>
+                <Text style={[styles.categoryItem, styles.categoryItemActive]}>All</Text>
+                    <Text style={style.categoryItem}>Roadster</Text>
+                    <Text style={style.categoryItem}>Mountain</Text>
+                    <Text style={style.categoryItem}>Urban</Text>
+                    <Text style={style.categoryItem}>Casual</Text>
            </View>
         </ScrollView>
         </View>
