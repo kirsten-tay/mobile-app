@@ -41,10 +41,15 @@ export default function Home() {
                     <Text style={style.categoryItem}>Casual</Text>
            </View>
         </ScrollView>
-        <View style={{marginTop: 20, flexDirection: 'row', flexWrap: 'wrap', rowGap: 20, columnGap: 20, width: '92%', marginHorizontal: 'auto'}}> {/* width is hacky*/}
+        <<View style={{marginTop: 20, flexDirection: 'row', flexWrap: 'wrap', rowGap: 20, columnGap: 20, width: '92%', marginHorizontal: 'auto'}}> {/* width is hacky*/}
             <Card name={"Pinarello"} price={"1700.00"} wishlist={true}/>
-        
-        </View>
+            <Card name={"Brompton"} price={"2300.00"} wishlist={false} />
+            <Card name={"Schwinn"} price={"5500.00"} wishlist={false}/>
+            <Card name={"Norco"} price={"1000.00"} wishlist={false}/>
+
+         </View>
+         </View>
+            
         
         
     )
