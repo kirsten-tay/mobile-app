@@ -58,3 +58,10 @@ export default function Home() {
         
     )
 }
+
+   
+const styles = StyleSheet.create({
+    categoryItem: {
+        color: 'rgba(0,0,0, .5)',
+        backgroundColor: '#e3e3e3',
+        borderRadius: 5,
