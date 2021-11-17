@@ -48,6 +48,10 @@ export default function Home() {
             <Card name={"Norco"} price={"1000.00"} wishlist={false}/>
 
          </View>
+
+         <Tab homeActive={true}/>
+        
+
          </View>
             
         
