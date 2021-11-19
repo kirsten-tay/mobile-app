@@ -65,3 +65,8 @@ const styles = StyleSheet.create({
         color: 'rgba(0,0,0, .5)',
         backgroundColor: '#e3e3e3',
         borderRadius: 5,
+        paddingVertical: 5,
+        paddingHorizontal: '1rem',
+        marginHorizontal: 7,
+        fontWeight: 500
+    },
