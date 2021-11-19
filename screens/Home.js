@@ -69,4 +69,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: '1rem',
         marginHorizontal: 7,
         fontWeight: 500
-    },
+    }
+
+}
+)
