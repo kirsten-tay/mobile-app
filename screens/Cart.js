@@ -19,7 +19,8 @@ export default function Cart()) {
            justifyContent:"space-between",
             alignItems:"center",
             }}>
-                
+                Text style={{fontWeight: 700, fontSize: 20, color: 'rgba(0,0,0, .8)'}}>Cart list</Text>
+                    <Text style={{fontWeight: 600, fontSize: 15, color: 'rgba(0,0,0, .4)', textAlign: 'center'}}>(3 items)</Text>
             </View>
 
         </View>
