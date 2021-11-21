@@ -1,8 +1,12 @@
 import React from 'react'
-import {View, Text, Image, TouchableOpacity, Pressable} from "react-native"
+import {View, Text, Image, TouchableOpacity, StyleSheet, ScrollView, Pressable} from "react-native"
 import {AntDesign} from '@expo/vector-icons';
+import { Ionicons } from '@expo/vector-icons';
+import Tab from '../components/BottomTab'
+import CartItem from '../components/CartItem'
 
-export default function Cart()) {
+
+export default function Cart({navigation}) {
     return(
         <View style={{
         backgroundColor:"white",
