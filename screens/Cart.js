@@ -27,7 +27,12 @@ export default function Cart({navigation}) {
                     <Text style={{fontWeight: 600, fontSize: 15, color: 'rgba(0,0,0, .4)', textAlign: 'center'}}>(3 items)</Text>
             </View>
 
-        </View>
+        <View>
+        <CartItem name={"Pinerallo"} type={"Mountain"} price={"1700.00"}/>
+        <CartItem name={"Brompton"} type={"Road"} price={"4200.69"}/>
+        <CartItem name={"Norco"} type={"Urban"} price={"666.00"}/>
+    </View>
+    </View>
     )
 
 }
