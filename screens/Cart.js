@@ -32,6 +32,12 @@ export default function Cart({navigation}) {
         <CartItem name={"Brompton"} type={"Road"} price={"4200.69"}/>
         <CartItem name={"Norco"} type={"Urban"} price={"666.00"}/>
     </View>
+
+    <View style={{backgroundColor: 'rgba(0,0,0,.05)', borderRadius: 15, paddingVertical: 20, paddingHorizontal: 20, marginVertical: 10}}>
+                <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
+                    <Text style={{fontSize: 17, color: 'rgba(0,0,0,.5)', fontWeight: 500}}>Subtotal</Text>
+                    <Text style={{fontSize: 17, fontWeight: 600, color: '#f17827'}}>$<Text style={{color: '#000', fontSize: 18}}>6,566.69</Text></Text>
+                </View>
     </View>
     )
 
