@@ -38,6 +38,10 @@ export default function Cart({navigation}) {
                     <Text style={{fontSize: 17, color: 'rgba(0,0,0,.5)', fontWeight: 500}}>Subtotal</Text>
                     <Text style={{fontSize: 17, fontWeight: 600, color: '#f17827'}}>$<Text style={{color: '#000', fontSize: 18}}>6,566.69</Text></Text>
                 </View>
+                <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
+                    <Text style={{fontSize: 17, color: 'rgba(0,0,0,.5)', fontWeight: 500}}>Shipping</Text>
+                    <Text style={{fontSize: 17, fontWeight: 600, color: '#f17827'}}>$<Text style={{color: '#000', fontSize: 18}}>1,000.00</Text></Text>
+                </View>
     </View>
     )
 
