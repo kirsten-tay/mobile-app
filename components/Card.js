@@ -28,3 +28,16 @@ const styles = StyleSheet.create({
         width: 'fit-content',
         paddingHorizontal:  5,
         paddingVertical: 15
+
+    },
+    wishlist: {
+        position: 'absolute',
+        top: 10,
+        right: 10,
+        backgroundColor: '#fff',
+        borderRadius: '50%',
+        width: 35,
+        height: 35,
+    }
+})
+export default Card;
