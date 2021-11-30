@@ -18,3 +18,13 @@ const Card = ({name, price, wishlist}) => {
     </View>
     )
 }
+
+
+const styles = StyleSheet.create({
+    card: {
+        position: 'relative',
+        backgroundColor: '#e3e3e3',
+        borderRadius: 10,
+        width: 'fit-content',
+        paddingHorizontal:  5,
+        paddingVertical: 15
