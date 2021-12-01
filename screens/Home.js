@@ -3,7 +3,7 @@ import {View,Text, Image, StyleSheet , ScrollView} from "react-native"
 import {Ionicons ,FontAwesome ,AntDesign,Foundation,FlatList} from '@expo/vector-icons';
 import { NavigationContainer } from '@react-navigation/native';
 import Card from '../components/Card.js'
-import Tab from '../components/BottomTab'
+import Tab from '../components/tab'
 
 export default function Home() {
     return(
@@ -43,7 +43,7 @@ export default function Home() {
                     <Text style={styles.categoryItem}>Casual</Text>
            </View>
         </ScrollView>
-        <View style={{marginTop: 20, flexDirection: 'row', flexWrap: 'wrap', rowGap: 20, columnGap: 20, width: 92 , marginHorizontal: 'auto'}}> /* width is hacky*/
+        <View style={{marginTop: 20, flexDirection: 'row', flexWrap: 'wrap', rowGap: 20, columnGap: 20, width: 92 , marginHorizontal: 'auto'}}> 
             <Card name={"Pinarello"} price={"1700.00"} wishlist={true}/>
             <Card name={"Brompton"} price={"2300.00"} wishlist={false} />
             <Card name={"Schwinn"} price={"5500.00"} wishlist={false}/>
