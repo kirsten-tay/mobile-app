@@ -3,6 +3,7 @@ import {View,Text, Image, StyleSheet , ScrollView} from "react-native"
 import {Ionicons ,FontAwesome ,AntDesign,Foundation,FlatList} from '@expo/vector-icons';
 import { NavigationContainer } from '@react-navigation/native';
 import Card from '../components/Card.js'
+import Tab from '../components/BottomTab'
 
 export default function Home() {
     return(
