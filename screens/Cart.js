@@ -42,6 +42,11 @@ export default function Cart({navigation}) {
                     <Text style={{fontSize: 17, color: 'rgba(0,0,0,.5)', fontWeight: 500}}>Shipping</Text>
                     <Text style={{fontSize: 17, fontWeight: 600, color: '#f17827'}}>$<Text style={{color: '#000', fontSize: 18}}>1,000.00</Text></Text>
                 </View>
+                <View style={{flexDirection: 'row', justifyContent: 'space-between', marginVertical: 15, borderTop: '2px dashed rgba(0,0,0,.4)', paddingTop: 10}}>
+                    <Text style={{fontSize: 17, fontWeight: 700}}>Total</Text>
+                    <Text style={{fontSize: 17, fontWeight: 700, color: '#f17827'}}>$ <Text style={{color: '#000', fontSize: 18}}>7,566.69.00</Text></Text>
+                </View>
+            </View>
     </View>
     )
 
