@@ -8,6 +8,7 @@ import CartItem from '../components/CartItem'
 
 export default function Cart({navigation}) {
     return(
+        <view>
         <View style={{
         backgroundColor:"white",
         flex:1,
@@ -25,6 +26,7 @@ export default function Cart({navigation}) {
             }}>
                 <Text style={{fontWeight: 700, fontSize: 20, color: 'rgba(0,0,0, .8)'}}>Cart list</Text>
                     <Text style={{fontWeight: 600, fontSize: 15, color: 'rgba(0,0,0, .4)', textAlign: 'center'}}>(3 items)</Text>
+            </View>
             </View>
 
         <View>
@@ -47,7 +49,12 @@ export default function Cart({navigation}) {
                     <Text style={{fontSize: 17, fontWeight: 700, color: '#f17827'}}>$ <Text style={{color: '#000', fontSize: 18}}>7,566.69.00</Text></Text>
                 </View>
             </View>
-    </View>
+
+            <TouchableOpacity style={{paddingVertical: 15, paddingHorizontal: 50, backgroundColor: '#fa6401', borderRadius: 5, width: 'min-content', marginHorizontal: 'auto', marginTop: 5}}>
+                <Text style={{fontSize: 18,fontWeight: 700, textAlign: 'center', color: 'white', whiteSpace: 'nowrap'}}>Proceed to Checkout</Text>
+            </TouchableOpacity>
+            <Tab homeActive={false} />
+  </view>
     )
 
 }

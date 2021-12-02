@@ -8,6 +8,7 @@ import Home from './screens/Home'
 
 
 
+
 export default function App() {
   const MainNavigator = createStackNavigator();
 
@@ -19,6 +20,7 @@ export default function App() {
         initialRouteName="Login">
           <MainNavigator.Screen name="Home" component={Home}/>
           <MainNavigator.Screen name="Login" component={Login}/>
+
 
         </MainNavigator.Navigator>
       </NavigationContainer>
