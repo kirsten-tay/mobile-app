@@ -41,10 +41,7 @@ export default function Login({navigation}) {
                    <Text style={{fontSize:17, marginLeft:15}}>Login with Gmail</Text>
                  </TouchableOpacity>
                  
-                 <TouchableOpacity 
-                onPress={() => {
-                   navigation.navigate("Home")
-                }}
+                 
                 activeOpacity={0,8}
                  style={{
                 backgroundColor:"black",
