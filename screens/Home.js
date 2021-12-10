@@ -27,7 +27,7 @@ export default function Home() {
                </View>
             </View>
 
-            <Text style={{marginVertical: 10, fontSize: 18, fontWeight: "500", color: "rgba(0,0,0, .4)"}}>The world's <Text style={{fontSize: 20, fontWeight: "700", color:'#f17827'}}>Best Bikes</Text></Text>
+            <Text style={{marginVertical: 10, fontSize: 18, fontWeight: "500", color: "rgba(0,0,0, .4)"}}>The world's <Text style={{fontSize: 20, fontWeight: "700", color:'#f17827'}}>Best Bike</Text></Text>
             <Text style={{fontSize: 18, fontWeight: "700", color: "rgba(0,0,0, .8)"}}>Categories</Text>
          <ScrollView horizontal={true}>
            <View style={{
