@@ -2,7 +2,7 @@ import React from 'react'
 import {View, Text, Image, TouchableOpacity, StyleSheet, ScrollView, Pressable} from "react-native"
 import {AntDesign} from '@expo/vector-icons';
 import { Ionicons } from '@expo/vector-icons';
-import Tab from '../components/BottomTab'
+import Tab from '../components/tab'
 import CartItem from '../components/CartItem'
 
 
