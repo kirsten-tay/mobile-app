@@ -27,7 +27,7 @@ export default function Home() {
                </View>
             </View>
 
-            <Text style={{marginVertical: 10, fontSize: 18, fontWeight: "500", color: "rgba(0,0,0, .4)"}}>The world's <Text style={{fontSize: 20, fontWeight: "700", color:'#f17827'}}>Best Bike</Text></Text>
+            <Text style={{marginVertical: 10, alignItems:"center", fontSize: 18, fontWeight: "500", color: "rgba(0,0,0, .4)"}}>The world's <Text style={{fontSize: 20, fontWeight: "700", color:'#f17827'}}>Best Bike</Text></Text>
             <Text style={{fontSize: 18, fontWeight: "700", color: "rgba(0,0,0, .8)"}}>Categories</Text>
          <ScrollView horizontal={true}>
            <View style={{
@@ -43,9 +43,10 @@ export default function Home() {
                     <Text style={styles.categoryItem}>Casual</Text>
            </View>
         </ScrollView>
+
         <View style={{marginTop: 20, flexDirection: 'row', flexWrap: 'wrap', rowGap: 20, columnGap: 20, width: 92 , marginHorizontal: 'auto'}}> 
-            <Card name={"Pinarello"} price={"1700.00"} wishlist={true}/>
-            <Card name={"Brompton"} price={"2300.00"} wishlist={false} />
+            <Card  name={"Pinarello"} price={"1700.00"} wishlist={true}/>
+            <Card  name={"Brompton"} price={"2300.00"} wishlist={false} />
             <Card name={"Schwinn"} price={"5500.00"} wishlist={false}/>
             <Card name={"Norco"} price={"1000.00"} wishlist={false}/>
 
