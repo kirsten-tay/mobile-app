@@ -44,9 +44,10 @@ export default function Home() {
            </View>
         </ScrollView>
 
-        <View style={{marginTop: 20, flexDirection: 'row', flexWrap: 'wrap', rowGap: 20, columnGap: 20, width: 92 , marginHorizontal: 'auto'}}> 
+        <View style={{marginTop: 20, flexDirection: 'row', alignItems:"center", rowGap: 20, columnGap: 20, padding:10,justifyContent:"center",paddingHorizontal:'auto'}}> 
             <Card  name={"Pinarello"} price={"1700.00"} wishlist={true}/>
-            <Card  name={"Brompton"} price={"2300.00"} wishlist={false} />
+            <Card  name={"Brompton"} price={"2300.00"} wishlist={false} /></View>
+            <View style={{marginTop: 20, flexDirection: 'row', alignItems:"center", rowGap: 20, columnGap: 2, width: 2 , marginHorizontal: 'auto'}}> 
             <Card name={"Schwinn"} price={"5500.00"} wishlist={false}/>
             <Card name={"Norco"} price={"1000.00"} wishlist={false}/>
 
