@@ -8,7 +8,7 @@ export default function({name, price, type}) {
     return (
         <View style={{flexDirection: 'row', gap: 10, marginVertical: 20}}>
             <View style={{justifyContent: 'center', alignItems: 'center', backgroundColor: '#e3e3e3', width: 80, height: 80, borderRadius: 10}}>
-                <Image source={BikeProduct} style={{width: '80%', height: '50%'}}/>
+                <Image source={photobike} style={{width: '80%', height: '50%'}}/>
             </View>
 
             <View style={{ flexGrow: 1}}>
