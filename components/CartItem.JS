@@ -18,6 +18,10 @@ export default function({name, price, type}) {
                     <FontAwesome5 name="trash-alt" size={18} color="#f17827" />
                     </View>
                 </View>
+                <View>
+                    <Text style={{fontSize: 12, color: 'rgba(0,0,0, .5)'}}>{type} Bike</Text>
+                </View>
+
  
 
 )
