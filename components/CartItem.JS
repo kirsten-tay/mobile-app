@@ -18,7 +18,7 @@ export default function({name, price, type}) {
                     <FontAwesome5 name="trash-alt" size={18} color="#f17827" />
                     </View>
                 </View>
+ 
 
-  )  
+)
 }
-
