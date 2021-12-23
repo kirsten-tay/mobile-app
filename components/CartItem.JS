@@ -32,6 +32,12 @@ export default function({name, price, type}) {
                         <View style={{justifyContent: 'center', alignItems: 'center', width: 30, height: 30, borderRadius: '50%', backgroundColor: '#ef721f'}}>
                         <Feather name="plus" size={18} color="white" />
                         </View>
+
+                        </View>
+                </View>
+
+            </View>
+        </View>
  
 
 )
