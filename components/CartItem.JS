@@ -28,6 +28,10 @@ export default function({name, price, type}) {
                         <View style={{justifyContent: 'center', alignItems: 'center', width: 30, height: 30, borderRadius: '50%', backgroundColor: 'rgba(0,0,0, .8)'}}>
                         <Feather name="minus" size={18} color="white" />
                         </View>
+                        <Text style={{paddingHorizontal: 10, fontSize: 20, fontWeight: 600}}>1</Text>
+                        <View style={{justifyContent: 'center', alignItems: 'center', width: 30, height: 30, borderRadius: '50%', backgroundColor: '#ef721f'}}>
+                        <Feather name="plus" size={18} color="white" />
+                        </View>
  
 
 )
