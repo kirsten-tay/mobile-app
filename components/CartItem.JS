@@ -21,7 +21,13 @@ export default function({name, price, type}) {
                 <View>
                     <Text style={{fontSize: 12, color: 'rgba(0,0,0, .5)'}}>{type} Bike</Text>
                 </View>
-
+                
+                <View style={{flexDirection: 'row', justifyContent: 'space-between', flexGrow: 1}}>
+                    <Text style={{fontWeight: 700, color: '#f17827', fontSize: 15}}>$ <Text style={{fontSize: 20, color: 'rgba(0,0,0, .8)'}}>{price}</Text></Text>
+                    <View style={{flexDirection: 'row'}}>
+                        <View style={{justifyContent: 'center', alignItems: 'center', width: 30, height: 30, borderRadius: '50%', backgroundColor: 'rgba(0,0,0, .8)'}}>
+                        <Feather name="minus" size={18} color="white" />
+                        </View>
  
 
 )
