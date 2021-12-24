@@ -3,7 +3,7 @@ import {View, Text, Image, TouchableOpacity, StyleSheet, ScrollView, Pressable} 
 import {AntDesign} from '@expo/vector-icons';
 import { Ionicons } from '@expo/vector-icons';
 import Tab from '../components/tab'
-import CartItem from '../components/CartItem'
+import CartItem from './components/CartItem'
 
 
 export default function Cart({navigation}) {
