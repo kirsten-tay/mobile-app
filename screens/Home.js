@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
         paddingVertical: 5,
         paddingHorizontal: '1rem',
         marginHorizontal: 7,
-        fontWeight: 500
+        fontWeight: "500",
     }
 
 }
