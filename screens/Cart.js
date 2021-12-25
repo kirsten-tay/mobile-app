@@ -8,7 +8,7 @@ import CartItem from '../components/CartItem'
 
 export default function Cart({navigation}) {
     return(
-        <view>
+<View>
         <View style={{
         backgroundColor:"white",
         flex:1,
@@ -54,7 +54,7 @@ export default function Cart({navigation}) {
                 <Text style={{fontSize: 18,fontWeight: 700, textAlign: 'center', color: 'white', whiteSpace: 'nowrap'}}>Proceed to Checkout</Text>
             </TouchableOpacity>
             <Tab homeActive={false} />
-  </view>
+  </View>
     )
 
 }

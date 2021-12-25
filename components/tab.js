@@ -15,7 +15,7 @@ export  default  function({homeActive,navigation}){
                 >
     <Entypo name="home" size={24} color={homeActive ? '#f17827' : '#a3a3a3'} />
     </TouchableOpacity>
-    <View style={{position: 'absolute', justifyContent: 'center', alignItems: 'center', top: '-50%', left: '50%', transform: [{translate: '-50%'}], backgroundColor: '#000', borderRadius: '50%', width: 65, height: 65}}>
+    <View style={{position: 'absolute', justifyContent: 'center', alignItems: 'center', top: '-50%', left: '50%', transform: [{"translate": "-50%"}], backgroundColor: '#000', borderRadius: '50%', width: 65, height: 65}}>
         <MaterialCommunityIcons name="microphone-outline" size={24} color="white"/>
     </View>
     <TouchableOpacity 
