@@ -4,7 +4,7 @@ import { Entypo, SimpleLineIcons, MaterialCommunityIcons } from '@expo/vector-ic
 import { NavigationContainer } from '@react-navigation/native';
 
 
-export  default  function({homeActive,navigation}){
+export  default  function({homeActive}){
     return (
         <View style={{flexDirection: 'row', justifyContent: 'space-between', backgroundColor: "#e6e6e6", position: 'fixed', bottom: 0, left: 0, right: 0, paddingVertical: 20, paddingHorizontal: '15%'}}>
     <TouchableOpacity 
