@@ -26,8 +26,9 @@ export default function Login({navigation}) {
             <Text style={{color:"black", fontSize: 30, fontWeight:"600" }}>Power Bike Shop</Text>
             <TouchableOpacity 
             onPress={() => {
-                alert("hi")
+                navigation.navigate("Cart")
             }}
+            activeOpacity={0,8}
             style={{
                 backgroundColor:"#e3e3e3",
                 padding:10,
