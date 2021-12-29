@@ -41,7 +41,7 @@ export default function Cart({navigation}) {
                     <Text style={{fontSize: 17, fontWeight: "600", color: '#f17827'}}>$<Text style={{color: '#000', fontSize: 18}}>6,566.69</Text></Text>
                 </View>
                 <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
-                    <Text style={{fontSize: 17, color: 'rgba(0,0,0,.5)', fontWeight: 500}}>Shipping</Text>
+                    <Text style={{fontSize: 17, color: 'rgba(0,0,0,.5)', fontWeight: "500"}}>Shipping</Text>
                     <Text style={{fontSize: 17, fontWeight: "600", color: '#f17827'}}>$<Text style={{color: '#000', fontSize: 18}}>1,000.00</Text></Text>
                 </View>
                 <View style={{flexDirection: 'row', justifyContent: 'space-between', marginVertical: 15, borderTop: '2px dashed rgba(0,0,0,.4)', paddingTop: 10}}>
@@ -51,7 +51,7 @@ export default function Cart({navigation}) {
             </View>
 
             <TouchableOpacity style={{paddingVertical: 15, paddingHorizontal: 50, backgroundColor: '#fa6401', borderRadius: 5, width: 'min-content', marginHorizontal: 'auto', marginTop: 5, marginBottom:120}}>
-                <Text style={{fontSize: 18,fontWeight: "700", textAlign: 'center', color: 'white', whiteSpace: 'nowrap'}}>Proceed to Checkout</Text>
+                <Text style={{fontSize: 18,fontWeight: "700", textAlign: 'center', color: 'white',whitespace: 'nowrap'}}>Proceed to Checkout</Text>
             </TouchableOpacity>
             <Tab homeActive={false} />
   </View>
