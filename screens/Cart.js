@@ -11,20 +11,22 @@ export default function Cart({navigation}) {
 <View>
         <View style={{
         backgroundColor:"white",
-        flex:1,
+        flex:2,
         paddingTop:55,
-        paddingHorizontal:20,
+        paddingHorizontal:10,
+        justifyContent:'space-between'
         }}>
              <TouchableOpacity onPress={() => navigation.navigate('Home')}>
                 <Ionicons name="arrow-back" size={24} color="black" />
                 </TouchableOpacity>
+                <Text style={{fontWeight: "700", fontSize: 20, color: 'rgba(0,0,0, .8)'}}>Cart list</Text>
             <View style={{
            flexDirection:"row",
            flex:1,
-           justifyContent:"space-between",
+           justifyContent:"center",
             alignItems:"center",
-            }}>
-                <Text style={{fontWeight: "700", fontSize: 20, color: 'rgba(0,0,0, .8)'}}>Cart list</Text>
+            }}>            
+
                     <Text style={{fontWeight: "600", fontSize: 15, color: 'rgba(0,0,0, .4)', textAlign: 'center'}}>(3 items)</Text>
             </View>
             </View>
