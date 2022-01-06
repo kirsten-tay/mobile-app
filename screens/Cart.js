@@ -51,7 +51,7 @@ export default function Cart({navigation}) {
                 </View>
             </View>
 
-            <TouchableOpacity style={{paddingVertical: 15, paddingHorizontal: 50, flexdirection:"row", backgroundColor: '#fa6401', borderRadius: 5, width: min-content , marginHorizontal: 'auto', marginTop: 5, marginBottom:120}}>
+            <TouchableOpacity style={{paddingVertical: 15, paddingHorizontal: 50, flexdirection:"row", backgroundColor: '#fa6401', borderRadius: 5, width: "min-content %", marginHorizontal: 'auto', marginTop: 5, marginBottom:120}}>
                 <Text style={{fontSize: 18,fontWeight: "700", textAlign: 'center' ,color: 'white'}}>Proceed to Checkout</Text>
             </TouchableOpacity>
             <Tab homeActive={false} />

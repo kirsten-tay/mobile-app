@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
         position: 'relative',
         backgroundColor: '#e3e3e3',
         borderRadius: 10,
-        width: 'fit-content',
+        width: 'fit-content%',
         paddingHorizontal:  5,
         paddingVertical: 15
 
