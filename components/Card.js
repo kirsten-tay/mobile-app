@@ -8,7 +8,7 @@ import photobike from '../assets/photobike.png';
 
 const Card = ({name, price, wishlist}) => {
     return (
-        <ScrollView       contentContainerStyle={styles.scrollContentContainer} >
+        <ScrollView       >
 
     <View style={styles.card}>
         <View style={styles.wishlist, {transform: [{translate:"-50%"}] }}>
